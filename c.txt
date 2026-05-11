@@ -1,0 +1,17 @@
+gedit hosts.ini
+
+gedit myplay1.yml
+
+ansible-playbook -i hosts.ini myplay1.yml
+
+mkdir -p library
+cd library
+
+gedit first_module.py
+
+cd ..
+chmod +x library/first_module.py
+
+gedit myplay2.yml
+
+ansible-playbook -i hosts.ini myplay2.yml

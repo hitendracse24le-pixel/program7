@@ -1,0 +1,8 @@
+- name: My first playbook
+  hosts: local
+  connection: local
+
+  tasks:
+    - name: Writing my 1st playbook
+      debug:
+        msg: "Ansible is a popular config management tool"
